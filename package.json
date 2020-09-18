@@ -1,13 +1,12 @@
 {
   "name": "@ohmydefi/sushijs",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "штука для удобного обращения к контрактам суши",
   "main": "src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "upgrade": "cp ./repo/js/*.js ./src/js/repo",
     "repo": "git clone git@github.com:bartjman/SushiSwapJs.git ./repo"
-    
   },
   "repository": {
     "type": "git",
