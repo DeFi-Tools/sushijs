@@ -1,6 +1,6 @@
 {
   "name": "@ohmydefi/sushijs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "штука для удобного обращения к контрактам суши",
   "main": "src/js/index.js",
   "scripts": {
