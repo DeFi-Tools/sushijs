@@ -1,0 +1,22 @@
+{
+  "name": "@ohmydefi/sushijs",
+  "version": "1.0.0",
+  "description": "штука для удобного обращения к контрактам суши",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "upgrade": "cp ./repo/js/*.js ./src/js/repo",
+    "repo": "git clone git@github.com:bartjman/SushiSwapJs.git ./repo"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeFi-Tools/sushijs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeFi-Tools/sushijs/issues"
+  },
+  "homepage": "https://github.com/DeFi-Tools/sushijs#readme"
+}

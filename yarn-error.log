@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/rsivakov/.nvm/versions/node/v10.22.0/bin/node /usr/local/bin/yarn run upgrade
+
+PATH: 
+  /Users/rsivakov/.nvm/versions/node/v10.22.0/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/rsivakov/.nvm/versions/node/v10.22.0/bin:/usr/local/sbin:/Users/rsivakov/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/Users/rsivakov/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/Users/rsivakov/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/Users/rsivakov/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip:/Users/rsivakov/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/lein:/Users/rsivakov/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found:/Users/rsivakov/.antigen/bundles/wbinglee/zsh-wakatime:/Users/rsivakov/.antigen/bundles/zsh-users/zsh-syntax-highlighting:/Users/rsivakov/.composer/vendor/bin:/Users/rsivakov/.composer/vendor/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  10.22.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/rsivakov/vodka/sushijs/package.json: Unexpected token / in JSON at position 368
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@ohmydefi/sushijs",
+    "version": "1.0.0",
+    "description": "штука для удобного обращения к контрактам суши",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "upgrade": "rm ./src/js/repo/*.js && cp ./repo/js/*.js ./src/js/repo/*.js",
+      "repo": "git clone git@github.com:bartjman/SushiSwapJs.git ./repo"// ; cp ./repo/js/*.js ./src/js/repo/*.js   ; rm -rf ./repo"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DeFi-Tools/sushijs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DeFi-Tools/sushijs/issues"
+    },
+    "homepage": "https://github.com/DeFi-Tools/sushijs#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
